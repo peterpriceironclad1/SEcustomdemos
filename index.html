@@ -30241,6 +30241,13 @@
   <meta name="savepage-state" content="Standard Items; Retain cross-origin frames; Merge CSS images; Remove unsaved URLs; Load lazy images in existing content; Max frame depth = 5; Max resource size = 50MB; Max resource time = 10s;">
   <meta name="savepage-version" content="33.7">
   <meta name="savepage-comments" content="">
+  <!--Ironclad custom script--> <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+  <script type="text/javascript">
+  
+  (function(w,d,s,c,f,n,t,g,a,b,l){w["PactSafeObject"]=n;w[n]=w[n]||function(){(w[n].q=w[n].q||[]).push(arguments)},w[n].on=function(){(w[n].e=w[n].e||[]).push(arguments)},w[n].once=function(){(w[n].eo=w[n].eo||[]).push(arguments)},w[n].off=function(){(w[n].o=w[n].o||[]).push(arguments)},w[n].t=1*new Date(),w[n].l=0;a=d.createElement(s);b=d.getElementsByTagName(s)[0];a.async=1;a.src=c;a.onload=a.onreadystatechange=function(){w[n].l=1};a.onerror=a.onabort=function(){w[n].l=0};b.parentNode.insertBefore(a,b);setTimeout(function(){if(!w[n].l&&!w[n].loaded){w[n].error=1;a=d.createElement(s);a.async=1;a.src=f;a.onload=a.onreadystatechange=function(){w[n].l=1};a.onerror=a.onabort=function(){w[n].l=0};b.parentNode.insertBefore(a,b);l=function(u,e){try{e=d.createElement("img");e.src="https://d3r8bdci515tjv.cloudfront.net/error.gif?t="+w[n].t+"&u="+encodeURIComponent(u);d.getElementsByTagName("body")[0].appendChild(e)}catch(x){}};l(c);setTimeout(function(){if(!w[n].l&&!w[n].loaded){w[n].error=1;if(g&&"function"==typeof g){g.call(this);}l(f)}},t)}},t)})(window,document,"script","https://vault.demo.pactsafe.io/ps.min.js","https://d21iwaz8hush8a.cloudfront.net/ps.min.js","_ps",5000,function(){window.console&&console.error&&console.error("Unable to load Ironclad Clickwrap Library.")});
+    
+  
+  </script>
     </head>
   
       <body class="  ext-webkit ext-chrome ext-mac">
@@ -30318,7 +30325,7 @@
                                                       <h1 class="slds-m-bottom_xx-small slds-text-align_center tbid-banner-font-style tbid-banner-font-family">
                                                           Complete your profile
                                                       </h1>
-                                                      <div class="slds-text-align_center slds-text-body_regular slds-m-bottom_large tds-color_midnight">Thanks, Peter! Just a few more details about you and you're all set!
+                                                      <div class="slds-text-align_center slds-text-body_regular slds-m-bottom_large tds-color_midnight">Thanks, Tyler! Just a few more details about you and you're all set!
                                                       </div>
                                                   </div>
                                               </div>
@@ -30326,14 +30333,14 @@
                               
                                               <div class="slds-col slds-p-top_large slds-size_1-of-1 slds-medium-size_6-of-12 slds-large-size_6-of-12 slds-form-element">
                                                   <label class="slds-form-element__label" style="display:block" styleclass="slds-form-element__label">Company Name<abbr class="slds-required">*</abbr>
-                                                      <div class="slds-form-element__control"><input id="email" type="text" name="progressive:j_id48:j_id49:progressive-card-form:inputCompanyName" class="slds-input text-input text-input-required custom-data" tabindex="1" autofocus="autofocus" required="true" value="">
+                                                      <div class="slds-form-element__control"><input type="text" id="company_name" name="progressive:j_id48:j_id49:progressive-card-form:inputCompanyName" class="slds-input text-input text-input-required custom-data" tabindex="1" autofocus="autofocus" required="true" value="">
                                                       </div>
                                                   </label>
                                               </div>
                               
                                               <div class="slds-col slds-p-top_large slds-size_1-of-1 slds-medium-size_6-of-12 slds-large-size_6-of-12 slds-form-element">
                                                   <label class="slds-form-element__label" style="display:block" styleclass="slds-form-element__label">Job Title
-                                                      <div class="slds-form-element__control"><input id="progressive:j_id48:j_id49:progressive-card-form:inputTitle" type="text" name="progressive:j_id48:j_id49:progressive-card-form:inputTitle" class="slds-input text-input value="">
+                                                      <div class="slds-form-element__control"><input id="job_title" type="text" name="progressive:j_id48:j_id49:progressive-card-form:inputTitle" class="slds-input text-input custom-data" value="">
                                                       </div>
                                                   </label>  
                                               </div>
@@ -30341,7 +30348,7 @@
                                               <div class="slds-col slds-p-top_large slds-size_1-of-1 slds-medium-size_6-of-12 slds-large-size_6-of-12 slds-form-element">
                                                   <label class="slds-form-element__label" style="display:block" styleclass="slds-form-element__label">Role Name<abbr class="slds-required">*</abbr>
                                                       <div class="slds-form-element__control">
-                                                          <div class="slds-select_container"><select id="progressive:j_id48:j_id49:progressive-card-form:inputRoleName" name="progressive:j_id48:j_id49:progressive-card-form:inputRoleName" class="slds-select slds-input slds-input--small text-input text-input-required" size="1" required="true">	<option value="">Choose ...</option>
+                                                          <div class="slds-select_container"><select id="progressive:j_id48:j_id49:progressive-card-form:inputRoleName" name="progressive:j_id48:j_id49:progressive-card-form:inputRoleName" class="slds-select slds-input slds-input--small text-input text-input-required custom-data" size="1" required="true">	<option value="">Choose ...</option>
     <option value="Developer">Developer</option>
     <option value="Administrator">Administrator</option>
     <option value="Architect">Architect</option>
@@ -30365,7 +30372,7 @@
                                               <div class="slds-col slds-p-top_large slds-size_1-of-1 slds-medium-size_6-of-12 slds-large-size_6-of-12 slds-form-element">
                                                   <label class="slds-form-element__label" style="display:block" styleclass="slds-form-element__label">Relationship To Salesforce<abbr class="slds-required">*</abbr>
                                                       <div class="slds-form-element__control">
-                                                          <div class="slds-select_container"><select id="progressive:j_id48:j_id49:progressive-card-form:inputRelationship" name="progressive:j_id48:j_id49:progressive-card-form:inputRelationship" class="slds-select slds-input slds-input--small text-input text-input-required" size="1" required="true">	<option value="">Choose ...</option>
+                                                          <div class="slds-select_container"><select id="progressive:j_id48:j_id49:progressive-card-form:inputRelationship" name="progressive:j_id48:j_id49:progressive-card-form:inputRelationship" class="slds-select slds-input slds-input--small text-input text-input-required custom-data" size="1" required="true">	<option value="">Choose ...</option>
     <option value="Customer">Customer</option>
     <option value="Partner">Partner</option>
     <option value="Non-Customer / Prospect">Non-Customer / Prospect</option>
@@ -30379,7 +30386,7 @@
                                               <div class="slds-col slds-p-top_large slds-size_1-of-1 slds-medium-size_6-of-12 slds-large-size_6-of-12 slds-form-element">
                                                   <label class="slds-form-element__label" style="display:block" styleclass="slds-form-element__label">Country/Region<abbr class="slds-required">*</abbr>
                                                       <div class="slds-form-element__control">
-                                                          <div class="slds-select_container"><select id="progressive:j_id48:j_id49:progressive-card-form:inputCountry" name="progressive:j_id48:j_id49:progressive-card-form:inputCountry" class="slds-select slds-input slds-input--small text-input text-input-required" size="1" onchange="A4J.AJAX.Submit('progressive:j_id48:j_id49:progressive\x2Dcard\x2Dform',event,{'similarityGroupingId':'progressive:j_id48:j_id49:progressive\x2Dcard\x2Dform:j_id76','parameters':{'progressive:j_id48:j_id49:progressive\x2Dcard\x2Dform:j_id76':'progressive:j_id48:j_id49:progressive\x2Dcard\x2Dform:j_id76'} } )" required="true">	<option value="">Choose ...</option>
+                                                          <div class="slds-select_container"><select id="progressive:j_id48:j_id49:progressive-card-form:inputCountry" name="progressive:j_id48:j_id49:progressive-card-form:inputCountry" class="slds-select slds-input slds-input--small text-input text-input-required custom-data" size="1" onchange="A4J.AJAX.Submit('progressive:j_id48:j_id49:progressive\x2Dcard\x2Dform',event,{'similarityGroupingId':'progressive:j_id48:j_id49:progressive\x2Dcard\x2Dform:j_id76','parameters':{'progressive:j_id48:j_id49:progressive\x2Dcard\x2Dform:j_id76':'progressive:j_id48:j_id49:progressive\x2Dcard\x2Dform:j_id76'} } )" required="true">	<option value="">Choose ...</option>
     <option value="AF">Afghanistan</option>
     <option value="AX">Aland Islands</option>
     <option value="AL">Albania</option>
@@ -30623,7 +30630,7 @@
                                               <div class="slds-col slds-p-top_large slds-size_1-of-1 slds-medium-size_6-of-12 slds-large-size_6-of-12 slds-form-element"><span id="progressive:j_id48:j_id49:progressive-card-form:toggleState">
                                                       <label class="slds-form-element__label" style="display:block" styleclass="slds-form-element__label">State<abbr class="slds-required">*</abbr>
                                                           <div class="slds-form-element__control">
-                                                              <div class="slds-select_container"><select id="progressive:j_id48:j_id49:progressive-card-form:inputState" name="progressive:j_id48:j_id49:progressive-card-form:inputState" class="slds-select slds-input slds-input--small text-input text-input-required" size="1" required="true">	<option value="">Choose ...</option>
+                                                              <div class="slds-select_container"><select id="progressive:j_id48:j_id49:progressive-card-form:inputState" name="progressive:j_id48:j_id49:progressive-card-form:inputState" class="slds-select slds-input slds-input--small text-input text-input-required custom-data" size="1" required="true">	<option value="">Choose ...</option>
     <option value="AL">Alabama</option>
     <option value="AK">Alaska</option>
     <option value="AZ">Arizona</option>
@@ -30682,38 +30689,7 @@
                                                       </label></span>
                                               </div>
                               
-                                              <div id="contracts" class="slds-col slds-size_1-of-1 slds-p-top_large"> <!--Ironclad custom script--> <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
-  <script type="text/javascript">
-  
-  (function(w,d,s,c,f,n,t,g,a,b,l){w["PactSafeObject"]=n;w[n]=w[n]||function(){(w[n].q=w[n].q||[]).push(arguments)},w[n].on=function(){(w[n].e=w[n].e||[]).push(arguments)},w[n].once=function(){(w[n].eo=w[n].eo||[]).push(arguments)},w[n].off=function(){(w[n].o=w[n].o||[]).push(arguments)},w[n].t=1*new Date(),w[n].l=0;a=d.createElement(s);b=d.getElementsByTagName(s)[0];a.async=1;a.src=c;a.onload=a.onreadystatechange=function(){w[n].l=1};a.onerror=a.onabort=function(){w[n].l=0};b.parentNode.insertBefore(a,b);setTimeout(function(){if(!w[n].l&&!w[n].loaded){w[n].error=1;a=d.createElement(s);a.async=1;a.src=f;a.onload=a.onreadystatechange=function(){w[n].l=1};a.onerror=a.onabort=function(){w[n].l=0};b.parentNode.insertBefore(a,b);l=function(u,e){try{e=d.createElement("img");e.src="https://d3r8bdci515tjv.cloudfront.net/error.gif?t="+w[n].t+"&u="+encodeURIComponent(u);d.getElementsByTagName("body")[0].appendChild(e)}catch(x){}};l(c);setTimeout(function(){if(!w[n].l&&!w[n].loaded){w[n].error=1;if(g&&"function"==typeof g){g.call(this);}l(f)}},t)}},t)})(window,document,"script","https://vault.demo.pactsafe.io/ps.min.js","https://d21iwaz8hush8a.cloudfront.net/ps.min.js","_ps",5000,function(){window.console&&console.error&&console.error("Unable to load Ironclad Clickwrap Library.")});
-  
-  var custom_data = {};
-  
-  $(".custom-data").change(function(){
-    console.log(this.id);
-    custom_data[this.id] = this.value;
-    _ps('set', 'custom_data', custom_data );
-    _ps("send", "updated");
-  });
-  
-  _ps("create", "caf3db0c-92e7-4dd9-9162-4ce7f5d15249" );
-  _ps("load", "embedded-cjvlntayr", {signer_id_selector: "email", container_selector: "contracts" } );
-  _ps('set', 'snapshot_location', 'location-uqskc9joz');
-  
-  
-  
-  </script>
-  
-  
-  <style>
-      #ps-group-embedded-cjvlntayr label.ps-contract-label {
-          color: black;
-          font-weight: normal;
-          }
-      #ps-group-embedded-cjvlntayr a.ps-contract-link {
-          color: black;
-          }  
-  </style>
+                                              <div id="contracts" class="slds-col slds-size_1-of-1 slds-p-top_large"> 
                                                   <!-- <div class="slds-form-element"><span id="progressive:j_id48:j_id49:progressive-card-form:tosCheck">
                                                           <div class="slds-checkbox"><input id="progressive:j_id48:j_id49:progressive-card-form:inputAgree" type="checkbox" name="progressive:j_id48:j_id49:progressive-card-form:inputAgree" class="slds-input slds-form-element__control"><label for="progressive:j_id48:j_id49:progressive-card-form:inputAgree" class="slds-checkbox__label">
   
@@ -30741,6 +30717,24 @@
                                               </div>
                                           </div> 
                               
+  <script type="text/javascript">
+  
+  var custom_data = {};
+  
+  $(".custom-data").change(function(){
+    console.log(this.id);
+    custom_data[this.id] = this.value;
+    _ps('set', 'custom_data', custom_data );
+    _ps("send", "updated");
+  });
+  
+  _ps("create", "123fd67e-a296-47ed-9993-50db568d9c15" );
+  _ps('set', 'signer_id', 'tyler.andersen@ironcladhq.com');
+  _ps("load", "embedded-00wa-svzu", {container_selector: "contracts" } );
+  
+  //_ps('set', 'snapshot_location', 'location-uqskc9joz');//
+  
+  </script>
                                           <div class="tbid-card__footer" style="background-color: white;">
                                               <div class="slds-grid slds-grid_align-spread">
                                                   <button class="slds-button slds-button_neutral" onclick="if(true) pushClickEvent('back', 'button', 'complete your profile');backToFirstCardJS(); return false;" type="button">Back</button><input type="submit" name="progressive:j_id48:j_id49:progressive-card-form:j_id104" value="Done" onclick="if(true) pushClickEvent('done', 'button', 'complete your profile'); updateUserJS(); updateRegistrationStateJS(); return false;" class="slds-button slds-button_brand">
@@ -30897,6 +30891,18 @@
     <option value="zh_TW">繁體中文</option>
   </select><div id="progressive:j_id250:j_id251:j_id271:j_id284"></div>
   </form>
+  
+  
+  <!--Ironcladstyle
+  <style>
+      #ps-group-embedded-00wa-svzulabel.ps-contract-label {
+          color: black;
+          font-weight: normal;
+          }
+      #ps-group-embedded-00wa-svzu a.ps-contract-link {
+          color: black;
+          }  
+  </style> -->
                 </div>
               </div>
             </div>
